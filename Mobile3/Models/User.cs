@@ -14,6 +14,5 @@ public partial class User
     public string? Patronymic { get; set; }
 
     public DateOnly Birth { get; set; }
-
-    public virtual ICollection<Transport> Transports { get; set; } = new List<Transport>();
+    
 }

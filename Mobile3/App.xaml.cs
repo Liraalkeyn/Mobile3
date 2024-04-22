@@ -10,4 +10,3 @@ namespace Mobile3;
 public partial class App : Application
 {
 }
-

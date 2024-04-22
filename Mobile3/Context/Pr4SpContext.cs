@@ -37,10 +37,7 @@ public partial class Pr4SpContext : DbContext
             entity.Property(e => e.Company).HasMaxLength(150);
             entity.Property(e => e.UserId).HasColumnName("UserID");
 
-            entity.HasOne(d => d.User).WithMany(p => p.Transports)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("UserFK");
+
         });
 
         modelBuilder.Entity<User>(entity =>
