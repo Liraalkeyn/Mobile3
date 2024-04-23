@@ -23,7 +23,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <ListView Grid.Row="0" ItemsSource="{Binding users}" Foreground="Gray"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="442,151,0,0" Height="146" Grid.RowSpan="2" >
+        <ListView x:Name="aaa" Grid.Row="0" ItemsSource="{Binding users}" Foreground="Gray"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="442,151,0,0" Height="146" Grid.RowSpan="2" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="UserId" Width="20" DisplayMemberBinding="{Binding UserId}"></GridViewColumn>
@@ -31,6 +31,13 @@
                     <GridViewColumn Header="FirstName" Width="100" DisplayMemberBinding="{Binding FirstName}"></GridViewColumn>
                     <GridViewColumn Header="LastName" Width="80" DisplayMemberBinding="{Binding LastName}"></GridViewColumn>
                     <GridViewColumn Header="Patronymic" Width="50" DisplayMemberBinding="{Binding Patronymic}"></GridViewColumn>
+                    <GridViewColumn Header="Удалить" Width="50">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Width="38" Height="15" Background="CornflowerBlue" BorderThickness="1.5" Command="{Binding ElementName=aaa, Path=DataContext.DeleteUserCommand}" CommandParameter="{Binding UserId}"></Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>
@@ -55,7 +62,7 @@
 
         </StackPanel>
 
-        <ListView ItemsSource="{Binding transports}" Foreground="Gray" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="437,146,0,0" Height="146">
+        <ListView x:Name="bbb" ItemsSource="{Binding transports}" Foreground="Gray" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="437,146,0,0" Height="146">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="TransportId" Width="20" DisplayMemberBinding="{Binding TransportId}"></GridViewColumn>
@@ -63,7 +70,15 @@
                     <GridViewColumn Header="Code" Width="60" DisplayMemberBinding="{Binding Code}"></GridViewColumn>
                     <GridViewColumn Header="Color" Width="60" DisplayMemberBinding="{Binding Color}"></GridViewColumn>
                     <GridViewColumn Header="Company" Width="60" DisplayMemberBinding="{Binding Company}"></GridViewColumn>
+                    <GridViewColumn Header="Удалить" Width="50">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Width="38" Height="15" Background="CornflowerBlue"  BorderThickness="1.5" Command="{Binding ElementName=bbb, Path=DataContext.DeleteTransportCommand}" CommandParameter="{Binding TransportId}"></Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                 </GridView>
+                
             </ListView.View>
         </ListView>
         <StackPanel Width="374" Height="415" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Orange" Margin="16,125,0,0" Grid.RowSpan="2" Grid.Column="1">

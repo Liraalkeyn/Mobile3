@@ -98,7 +98,7 @@ public class ViewModel : INotifyPropertyChanged
         get { return _newTransport; }
         set { _newTransport = value; OnPropertyChanged(); }
     }
-
+    
     public DelegateCommand AddTransportCommand 
     {
         get
@@ -119,6 +119,52 @@ public class ViewModel : INotifyPropertyChanged
             transports = context.Transports.ToList();
         }
         newTransport = new Transport();
+    }
+    
+    
+    
+    private void DeleteUser(int UserId)
+    {
+        using (var context = new Pr4SpContext())
+        {
+            User userToDelete = context.Users.Find(UserId);
+            context.Users.Remove(userToDelete);
+            context.SaveChanges();
+            users = context.Users.ToList();
+        }
+    }
+
+    public DelegateCommand DeleteUserCommand 
+    {
+        get
+        {
+            return new DelegateCommand(o =>
+            {
+                DeleteUser((int)o);
+            });
+        }
+    }
+
+    private void DeleteTransport(int TransportId) 
+    {
+        using (var context = new Pr4SpContext())
+        {
+            Transport TransportToDelete = context.Transports.Find(TransportId);
+            context.Transports.Remove(TransportToDelete);
+            context.SaveChanges();
+            transports = context.Transports.ToList();
+        }
+    }
+
+    public DelegateCommand DeleteTransportCommand 
+    {
+        get
+        {
+            return new DelegateCommand(o =>
+            {
+                DeleteTransport((int)o);
+            });
+        }
     }
 }
 

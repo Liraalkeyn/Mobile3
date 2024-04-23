@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\context\\pr4spcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\context\\pr4spcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\models\\transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\models\\transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|c:\\users\\lemon\\riderprojects\\mobile3\\mobile3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1288B602-237C-499A-9295-5367CD55DD64}|Mobile3\\Mobile3.csproj|solutionrelative:mobile3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pr4SpContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\Context\\Pr4SpContext.cs",
+              "RelativeDocumentMoniker": "Mobile3\\Context\\Pr4SpContext.cs",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\Context\\Pr4SpContext.cs",
+              "RelativeToolTip": "Mobile3\\Context\\Pr4SpContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:40:50.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transport.cs",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\Models\\Transport.cs",
+              "RelativeDocumentMoniker": "Mobile3\\Models\\Transport.cs",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\Models\\Transport.cs",
+              "RelativeToolTip": "Mobile3\\Models\\Transport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:40:47.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\App.xaml",
+              "RelativeDocumentMoniker": "Mobile3\\App.xaml",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\App.xaml",
+              "RelativeToolTip": "Mobile3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T06:40:36.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\ViewModels\\ViewModel.cs",
+              "RelativeDocumentMoniker": "Mobile3\\ViewModels\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\ViewModels\\ViewModel.cs",
+              "RelativeToolTip": "Mobile3\\ViewModels\\ViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwHAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:38:12.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Mobile3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Mobile3\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:27:14.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Mobile3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Lemon\\RiderProjects\\Mobile3\\Mobile3\\MainWindow.xaml",
+              "RelativeToolTip": "Mobile3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T06:22:53.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
